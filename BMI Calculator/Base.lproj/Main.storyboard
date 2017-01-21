@@ -151,6 +151,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="bmiScoreLbl" destination="rBa-oU-Gkz" id="su3-Vd-q2x"/>
+                        <outlet property="bmiTextLbl" destination="vLY-4N-Cnv" id="87b-7R-bE0"/>
                         <outlet property="heightTF" destination="tMc-wk-smx" id="Z5c-tB-5Sa"/>
                         <outlet property="weightTF" destination="Dhl-vh-KPK" id="miR-h5-VHg"/>
                     </connections>
