@@ -56,6 +56,9 @@
                                 <state key="normal" title="BMI Calculate">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculateBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PLC-8o-1sc"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7XH-wt-g1H">
                                 <rect key="frame" x="16" y="229" width="343" height="340"/>
@@ -147,6 +150,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="heightTF" destination="tMc-wk-smx" id="Z5c-tB-5Sa"/>
+                        <outlet property="weightTF" destination="Dhl-vh-KPK" id="miR-h5-VHg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

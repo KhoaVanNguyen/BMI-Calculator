@@ -10,6 +10,10 @@ import UIKit
 
 class HomeVC: UIViewController {
 
+    @IBOutlet weak var heightTF: UITextField!
+    
+    @IBOutlet weak var weightTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,10 @@ class HomeVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func calculateBtn(_ sender: Any) {
+        
+    }
+    
 
 }
 
